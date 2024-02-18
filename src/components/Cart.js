@@ -1,6 +1,6 @@
 export const Cart = () => {
   return (
-    <div>
+    <div className="mt-20">
       <p>Cart</p>
     </div>
   );

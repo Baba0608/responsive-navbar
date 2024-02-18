@@ -1,6 +1,6 @@
 export const About = () => {
   return (
-    <div>
+    <div className="mt-20">
       <p>About</p>
     </div>
   );
