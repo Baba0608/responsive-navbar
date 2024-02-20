@@ -6,10 +6,16 @@ export const Home = () => {
   }
   return (
     <div className="mt-20">
-      <ul></ul>
-      {arr.map((x) => (
-        <li className="py-10 bg-orange-200 my-4 w-full">{x}</li>
-      ))}
+      <ul>
+        {arr.map((x) => (
+          <li
+            key={x}
+            className="py-10 bg-orange-200 mt-4 w-full hover:bg-orange-300"
+          >
+            {x}
+          </li>
+        ))}
+      </ul>
     </div>
   );
 };
